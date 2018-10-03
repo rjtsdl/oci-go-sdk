@@ -9,7 +9,7 @@ import (
 	"github.com/oracle/oci-go-sdk/common"
 )
 
-const (
+var (
 	regionURL                            = `http://169.254.169.254/opc/v1/instance/region`
 	leafCertificateURL                   = `http://169.254.169.254/opc/v1/identity/cert.pem`
 	leafCertificateKeyURL                = `http://169.254.169.254/opc/v1/identity/key.pem`
